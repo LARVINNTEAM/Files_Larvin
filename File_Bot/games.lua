@@ -30,7 +30,7 @@ Text_Games = [[
  *⌔︙لعبه الحزوره ↞لعبة التفكير*
  *⌔︙لعبه المعاني ↞ العبه الشهيره* 
 ٴ┉ ┉ ┉ ┉ ┉ 𝑳𝐍 ┉  ┉ ┉ ┉ ┉ٴ
-[𝑳𝐀𝐑𝐕𝐈𝐍 𝐓𝐄𝐀𝐌](t.me/SourceLarvine)
+[彡 𝑳𝐀𝐑𝐕𝐈𝐍 𝐓𝐄𝐀𝐌. ➢] (t.me/SourceLarvine)
 ]]
 send(msg.chat_id_, msg.id_,Text_Games) 
 end
