@@ -16,16 +16,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*⌔︙هاذا الامر خاص بالادمنيه*\n*⌔︙ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌔︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌔︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
-return false
-end
 local help_text = database:get(bot_id..'help1_text')
 Text = [[
 *⌔︙اوامر الحمايه اتبع مايلي ...*
@@ -69,16 +59,6 @@ end
 if text == 'م2' then
 if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*⌔︙هاذا الامر خاص بالادمنيه*\n*⌔︙ارسل {م10} لعرض اوامر الاعضاء*')
-return false
-end
-print(AddChannel(msg.sender_user_id_))
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌔︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌔︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
 return false
 end
 local help_text = database:get(bot_id..'help2_text')
@@ -130,16 +110,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*⌔︙هاذا الامر خاص بالادمنيه*\n*⌔︙ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌔︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌔︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
-return false
-end
 local help_text = database:get(bot_id..'help3_text')
 Text = [[
 *⌔︙اهلا بك عزيزي …*
@@ -166,16 +136,6 @@ end
  if text == 'م4' then
 if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*⌔︙هاذا الامر خاص بالادمنيه*\n*⌔︙ارسل {م10} لعرض اوامر الاعضاء*')
-return false
-end
-print(AddChannel(msg.sender_user_id_))
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌔︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌔︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
 return false
 end
 local help_text = database:get(bot_id..'help4_text')
@@ -217,16 +177,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*⌔︙هاذا الامر خاص بالادمنيه*\n*⌔︙ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌔︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌔︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
-return false
-end
 local help_text = database:get(bot_id..'help5_text')
 Text = [[
 *⌔︙اهلا بك عزيزي …*
@@ -266,16 +216,6 @@ end
 if text == 'م6' then
 if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*⌔︙هاذا الامر خاص بالادمنيه*\n*⌔︙ارسل {م10} لعرض اوامر الاعضاء*')
-return false
-end
-print(AddChannel(msg.sender_user_id_))
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌔︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌔︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
 return false
 end
 local help_text = database:get(bot_id..'help6_text')
@@ -338,16 +278,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*⌔︙هاذا الامر خاص بالادمنيه*\n*⌔︙ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌔︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌔︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
-return false
-end
 local help_text = database:get(bot_id..'help7_text')
 Text = [[
 *⌔︙الاوامر التحشيش …*
@@ -397,15 +327,6 @@ if not Sudo(msg) then
 send(msg.chat_id_, msg.id_,'*⌔︙هاذا الامر خاص بمطور*\n*⌔︙ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌔︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌔︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
-return false
-end
 local help_text = database:get(bot_id..'help8_text')
 Text = [[
 *✹⤂اوامر المطورين* 
@@ -429,15 +350,6 @@ end
 if text == 'م9' then
 if not Sudo(msg) then
 send(msg.chat_id_, msg.id_,'*⌔︙هاذا الامر خاص بالمطور الاساسي*\n*⌔︙ارسل {م10} لعرض اوامر الاعضاء*')
-return false
-end
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌔︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌔︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
 return false
 end
 local help_text = database:get(bot_id..'help9_text')
